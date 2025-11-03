@@ -1,0 +1,19 @@
+body {
+    background-color: #e0d0c0;
+} 
+
+img {
+    height: 500px;      
+    width: 600px;
+}
+
+/* Buttons */
+button {
+    background-color:#dfb0b0;
+    border-radius: 50px ;
+}
+
+button:hover {
+    color:antiquewhite;
+    background-color: #3d361ce1;
+}
