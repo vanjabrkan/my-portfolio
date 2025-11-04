@@ -1,11 +1,16 @@
+
 body {
     background-color: #e0d0c0;
 } 
 
-img {
-    height: 500px;      
-    width: 600px;
-}
+
+
+footer {
+    text-align: center;
+    color: #333;
+    /* font-size: 14px;
+    margin-top: 40px;  space above footer */
+  }
 
 /* Buttons */
 button {
