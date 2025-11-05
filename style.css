@@ -1,20 +1,12 @@
-.nav-link {
-  color: #3d361ce1;
-}
-
-.nav-link:hover {
-  color: red;
-}
-
 .header {
   background-color: #e0d0c0;
 }
 
-#title {
+#hero {
   background-color: #e0d0c0;
 }
 
-#title svg {
+#hero svg {
   display: block;
   width: 100%;
   height: 100px; /* prilagodi po želji */
@@ -29,6 +21,13 @@ body {
   background-color: #dfb0b0;
 }
 
+.rounded-oval {
+  border-radius: 30%;
+}
+
+.nav-link:hover {
+  color: red;
+}
 /* Buttons */
 #myButton {
   color: #3d361ce1;
