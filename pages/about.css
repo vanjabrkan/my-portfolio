@@ -1,0 +1,42 @@
+
+
+
+body {
+
+  background-size: cover; /* makes the image cover the entire screen 
+    background-image: url("/assets/flowers.jpg");*/
+  background-repeat: no-repeat; /* prevents the image from repeating */
+  background-position: center; /* centers the image */
+  height: 100vh; /* makes body height equal to viewport height */
+  margin: 0; /* removes default body margin */
+}
+
+ Style the contact form */
+form {
+    max-width: 590px; /* maximum width of the form */
+    width: 90%; /* make it responsive on smaller screens */
+    background: white; /* white background for form */
+    margin: 14vh auto 0 auto; /* centers the form horizontally and adds top margin */
+    padding: 40px; /* space inside the form */
+    border-radius: 5px; /* slightly rounded corners */
+    box-sizing: border-box; /* includes padding in width */
+}
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+/* Make all labels block-level elements */
+label {
+    display: block; /* each label takes full width and appears above input */
+    margin: 20px 0;
+}
+
+/* Style all input fields and textareas */
+input, textarea, button {
+    width: 100%; /* make inputs and textareas take the full width of their container */
+    padding: 10px; /* add space inside the input/textarea for better readability */
+    box-sizing: border-box; 
+    outline:none;
+    resize: none
+}
