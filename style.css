@@ -14,11 +14,17 @@
 
 .features {
   background-color: #dfb0b0;
+  padding-bottom: 50px;
 }
 
 body {
   color: #3d361ce1;
   background-color: #dfb0b0;
+}
+
+#footer {
+  background-color: #e0d0c0;
+  padding-bottom: 50px;
 }
 
 .rounded-oval {
