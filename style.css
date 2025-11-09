@@ -2,6 +2,35 @@
   background-color: #e0d0c0;
 }
 
+form[role="search"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input.form-control {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+
+  font-size: 1rem;
+  box-shadow: 0 2px 3px rgba(167, 18, 117, 0.3); /* Hover shadow */
+  background-color: #dfb0b0 !important;
+  color: #3d361ce1 !important;
+}
+
+/* Placeholder color */
+.form-control::placeholder {
+  color: #3d361ce1 !important;
+}
+
+/* Focus effect */
+.form-control:focus {
+  border-color: #6e196a;
+  box-shadow: 0 3px 10px rgba(167, 18, 117, 0.3); /* Hover shadow */
+  outline: none;
+}
+
 #hero {
   background-color: #e0d0c0;
 }

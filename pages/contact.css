@@ -51,7 +51,6 @@ form input,
 form textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
     border: 1px solid transparent;
     border-radius: 10px;
     font-size: 1rem;
@@ -63,28 +62,31 @@ form textarea {
 .input-group {
     display: grid; /* Creates responsive grid layout */
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* Auto responsive fields */
-    gap: 1px; /* Space between fields */
-    margin-bottom: 1px; /* Spacing below group */
+    gap: 15px; /* Space between fields */
+    margin-bottom: 15px; /* Spacing below group */
 }
 
+/* Textarea */
 form textarea {
     resize: none; /* Prevent resizing */
     height: 100px;
+       margin-bottom: 20px;   
 }
 
+/* Focus effect */
 input:focus, textarea:focus {
     border-color: #3d361ce1;
     outline: none;
     box-shadow: 0 0 0 1px rgba(167, 18, 117, 0.3);
 }
 
+/* Placeholder */
 input::placeholder,
 textarea::placeholder {
     color: #3d361ce1;
 }
 
-
-
+/* Submit button */
 form button {
     width: 100%;
     padding: 10px;
@@ -94,9 +96,10 @@ form button {
     font-size: 1rem;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
 }
 
+/* Hover */
 form button:hover {
     background-color: #493845;
     transform: translateY(-2px); /* Slight lift effect */
